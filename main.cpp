@@ -50,7 +50,7 @@ void checkadmin() {
     if (!IsRunningAsAdmin) {
         int msgboxID = MessageBoxA(
             NULL,
-            (LPCSTR)"run as admin.",
+            (LPCSTR)"please, run as admin",
             (LPCSTR)"gay.club | error",
             MB_OK
         );
@@ -117,7 +117,12 @@ int loading()
     Sleep(50);
     printf("r");
     Sleep(50);
-
+    int msgboxID = MessageBoxA(
+        NULL,
+        (LPCSTR)"loading modules",
+        (LPCSTR)"gay.club | info",
+        MB_OK
+    );
     int i = 0;
     char load[26];
     while (i < 25)
@@ -166,6 +171,9 @@ menu:
     MessageBoxA(NULL, "menu initialized", "gay.club", MB_OK);
     int choice;
     system("color c");
+    printf("        [+] status: undetected");
+    printf("\n");
+    printf("\n");
     printf("                           .      .   \n");
     Sleep(200);
     printf("        ,-. ,-. . .    ,-. |  . . |-. \n");
@@ -183,7 +191,7 @@ menu:
     printf("\n");
     printf("\n");
     Sleep(100);
-    printf("[1] Spoof\n[2] Clean\n[3] Check serials\n[4] Bypass BE/EAC\n[5] Secret\n> Your option:");
+    printf("[1] Spoof\n[2] Clean\n[3] Check serials\n[4] Bypass BE/EAC\n[5] Secret\n> Your option: ");
     cin >> choice;
     if (choice == 1)
     {
