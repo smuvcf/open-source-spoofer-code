@@ -249,3 +249,5 @@ menu:
 // tools used to code: BRAIN
 // credits: damo, me
 // gay.club doesn't exist
+// If you're trying to sell it. Please credit me...
+// fuck neexz#0001 | 12yo skid
