@@ -1,11 +1,3 @@
-// i'm releasing it here : github.com/5nx
-// made with stream on \ not pasted :p
-// i can actually code dogs
-// made by damo#4444
-// based on my dick
-// tools used to code: BRAIN
-// credits: damo, me
-// gay.club doesn't exist
 
 #include <windows.h>
 #include <stdio.h>
@@ -37,14 +29,6 @@ auto RandomTitle = [](int iterations) {
     return Title;
 };
 
-// i'm releasing it here : github.com/5nx
-// made with stream on \ not pasted :p
-// i can actually code dogs
-// made by damo#4444
-// based on my dick
-// tools used to code: BRAIN
-// credits: damo, me
-// gay.club doesn't exist
 
 void checkadmin() {
     bool IsRunningAsAdmin = false;
@@ -74,22 +58,12 @@ void checkadmin() {
     }
 }
 
- // i'm releasing it here : github.com/5nx
-// made with stream on \ not pasted :p
-// i can actually code dogs
-// made by damo#4444
-// based on my dick
-// tools used to code: BRAIN
-// credits: damo, me
-// gay.club doesn't exist
-
+ 
 int loading()
 {
-    SetConsoleTitleA(RandomTitle(rand() ^ 100 + 9).c_str());
-    system("TASKKILL /F /IM FortniteClient-Win64-Shipping.exe >NUL 2> 1");
-    system("TASKKILL /F /IM EpicGamesLauncher.exe >NUL 2> 1");
-    system("TASKKILL /F /IM UnrealCEFSubProcess.exe");
+    SetConsoleTitleA(RandomTitle(rand() ^ 10 + 255).c_str());
     checkadmin();
+    Sleep(5000);
     system("color 6");
     printf("w");
     Sleep(50);
@@ -143,16 +117,7 @@ int loading()
     Sleep(50);
     printf("r");
     Sleep(50);
-  
-// i'm releasing it here : github.com/5nx
-// made with stream on \ not pasted :p
-// i can actually code dogs
-// made by damo#4444
-// based on my dick
-// tools used to code: BRAIN
-// credits: damo, me
-// gay.club doesn't exist
-  
+
     int i = 0;
     char load[26];
     while (i < 25)
@@ -161,7 +126,7 @@ int loading()
         load[i++] = '#';
         load[i] = '\0';
 
-        printf("                    LOADING");
+        printf("                  LOADING");
         printf("\n\n        [%-25s]", load);
         system("color 1");
         system("color 2");
@@ -183,6 +148,9 @@ int loading()
     printf("\n");
     printf("\n");
     system("color c");
+    system("TASKKILL /F /IM FortniteClient-Win64-Shipping.exe >NUL 2> 1");
+    system("TASKKILL /F /IM EpicGamesLauncher.exe >NUL 2> 1");
+    system("TASKKILL /F /IM UnrealCEFSubProcess.exe");
     printf("\n[-] Closing Fortnite\n[-] Closing UnrealCEFSubProcess\n[-] Closing Epic Games Launcher");
     Sleep(5000);
     system("cls");
@@ -190,16 +158,6 @@ int loading()
     system("pause");
     system("color c");
 }
-
-// i'm releasing it here : github.com/5nx
-// made with stream on \ not pasted :p
-// i can actually code dogs
-// made by damo#4444
-// based on my dick
-// tools used to code: BRAIN
-// credits: damo, me
-// gay.club doesn't exist
-
 int main()
 {
     loading();
@@ -208,24 +166,24 @@ menu:
     MessageBoxA(NULL, "menu initialized", "gay.club", MB_OK);
     int choice;
     system("color c");
-    printf("                   .      .   \n");
+    printf("                           .      .   \n");
     Sleep(200);
-    printf(",-. ,-. . .    ,-. |  . . |-. \n");
+    printf("        ,-. ,-. . .    ,-. |  . . |-. \n");
     Sleep(200);
-    printf("| | ,-| | | ,. |   |  | | | | \n");
+    printf("        | | ,-| | | ,. |   |  | | | | \n");
     Sleep(200);
-    printf("`-| `-^ `-| `' `-' `' `-' `-' \n");
+    printf("        `-| `-^ `-| `' `-' `' `-' `-' \n");
     Sleep(200);
-    printf(" ,|      /|                   \n");
+    printf("         ,|      /|                   \n");
     Sleep(200);
-    printf(" `'     `-'                   \n");
+    printf("         `'     `-'                   \n");
     Sleep(200);
     printf("\n");
     printf("\n");
     printf("\n");
     printf("\n");
     Sleep(100);
-    printf("[1] Spoof\n[2] Clean\n[3] Check serials\n[4] Bypass BE/EAC\n[5] Discord\n> Your option:");
+    printf("[1] Spoof\n[2] Clean\n[3] Check serials\n[4] Bypass BE/EAC\n[5] Secret\n> Your option:");
     cin >> choice;
     if (choice == 1)
     {
@@ -244,11 +202,25 @@ menu:
     }
     if (choice == 2)
     {
-        // soon
+        system("cls");
+        system("color c");
+        printf("        [!] cleaning do not close window\n");
+        Sleep(5000);
+        system("cls");
+        system("color a");
+        Sleep(10000);
+        printf("        [+] cleaned\n");
+        Sleep(1000);
+        printf("        [?] returning to menu\n");
+        Sleep(1000);
+        goto menu;
     }
     if (choice == 3)
     {
+        system("cls");
         system("wmic bios get serialnumber");
+        Sleep(5000);
+        goto menu;
     }
     if (choice == 4)
     {
